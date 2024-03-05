@@ -1,0 +1,31 @@
+int pina=2;
+int pinb=3;
+int pinc=4;
+int pind=5;
+int pine=6;
+int pinf=7;
+int ping=8;
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(pina,OUTPUT);
+  pinMode(pinb,OUTPUT);
+  pinMode(pinc,OUTPUT);
+  pinMode(pind,OUTPUT);
+  pinMode(pine,OUTPUT);
+  pinMode(pinf,OUTPUT);
+  pinMode(ping,OUTPUT);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(pina,HIGH);
+  digitalWrite(pina,HIGH);
+  digitalWrite(pina,HIGH);
+  digitalWrite(pina,HIGH);
+  digitalWrite(pina,HIGH);
+  digitalWrite(pina,HIGH);
+  digitalWrite(pina,HIGH);
+  digitalWrite(pina,HIGH);
+
+}
